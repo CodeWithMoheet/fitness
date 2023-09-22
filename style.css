@@ -16,12 +16,13 @@ span {
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
+    background-image: url(1uUv.gif) ;
 }
 
 header {
     background-color: #25aaaa;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     height: 100px;
 }
 
@@ -88,20 +89,37 @@ nav ul li a :hover {
     font-weight: 900;
 }
 
-.slider {
-    width: 50vw;
-    margin: 12px auto;
-    overflow: hidden;
+.slider img{
+    /* display: none; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 70vw;
+    /* background: #f9f9f9;
+    opacity: 0.8; */
+    /* margin: 12px auto; */
+    /* overflow: hidden; */
+}
+.slider{
+    /* background-image: url(1uUv.gif) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
     color: white;
 }
-
+.container{
+    background-image: url(1uUv.gif) ;
+   
+    
+}
 .card {
+  
     max-width: 91vw;
     margin: 37px auto;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .cards {
